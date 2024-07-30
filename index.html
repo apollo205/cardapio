@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Bar XYZ!</h1>
+        <nav>
+            <ul>
+                <li><a href="#cervejas">Cervejas</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+                <li><a href="#petiscos">Petiscos</a></li>
+                <li><a href="#contato">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cervejas">
+            <h2>Cervejas</h2>
+            <ul>
+                <li>
+                    <img src="imagens/heinek.jpeg" alt="Heineken">
+                    Heineken - R$12,00
+                </li>
+                <li>
+                    <img src="imagens/skol.jpeg" alt="Skol">
+                    Skol - R$8,00
+                </li>
+                <li>
+                    <img src="imagens/brahma.jpeg" alt="Brahma">
+                    Brahma - R$8,00
+                </li>
+                <li>
+                    <img src="imagens/corona.jpeg" alt="Corona">
+                    Corona - R$15,00
+                </li>
+            </ul>
+        </section>
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <ul>
+                <li>
+                    <img src="imagens/caipirinha.jpeg" alt="Caipirinha">
+                    Caipirinha - R$15,00
+                </li>
+                <li>
+                    <img src="imagens/mojito.jpeg" alt="Mojito">
+                    Mojito - R$18,00
+                </li>
+                <li>
+                    <img src="imagens/martini.jpeg" alt="Martini">
+                    Martini - R$20,00
+                </li>
+                <li>
+                    <img src="imagens/margarita.jpeg" alt="Margarita">
+                    Margarita - R$18,00
+                </li>
+            </ul>
+        </section>
+        <section id="petiscos">
+            <h2>Petiscos</h2>
+            <ul>
+                <li>
+                    <img src="imagens/Batata Frita.jpeg" alt="Batata Frita">
+                    Batata Frita - R$10,00
+                </li>
+                <li>
+                    <img src="imagens/Aneis de Cebola.jpeg" alt="Aneis de Cebola">
+                    Aneis de Cebola - R$12,00
+                </li>
+                <li>
+                    <img src="imagens/Frango a Passarinho.jpeg" alt="Frango a Passarinho">
+                    Frango a Passarinho - R$20,00
+                </li>
+                <li>
+                    <img src="imagens/Calabresa Acebolada.jpeg" alt="Calabresa Acebolada">
+                    Calabresa Acebolada - R$18,00
+                </li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form id="contato-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bar XYZ. Todos os direitos reservados.</p>
+    </footer>
+
+    <button id="scrollToTopBtn">Voltar ao Topo</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

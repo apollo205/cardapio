@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #000; /* Fundo preto */
+    color: #17bb1f; /* Texto branco */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #17bb1f; /* Texto branco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #17bb1f; /* Verde */
+    border-bottom: 2px solid #17bb1f; /* Verde */
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff; /* Fundo branco */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #e9f5e9; /* Fundo verde claro ao passar o mouse */
+}
+
+footer {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Centralizar a seção de contato */
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#contato-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+#contato-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #17bb1f; /* Verde */
+}
+
+#contato-form input, #contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contato-form button {
+    background-color: #17bb1f; /* Verde */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contato-form button:hover {
+    background-color: #17bb1f; /* Verde escuro */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li img {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    ul li {
+        padding: 15px;
+    }
+
+    ul li img {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+/* Adicionando estilos para o botão Voltar ao Topo */
+#scrollToTopBtn {
+    display: none; /* Inicialmente escondido */
+    position: fixed; /* Fica fixo na tela */
+    bottom: 80px; /* Distância do fundo da tela, ajustado para não sobrepor o footer */
+    right: 20px; /* Distância da lateral direita */
+    background-color: #17bb1f; /* Verde */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+#scrollToTopBtn:hover {
+    background-color: #17bb1f; /* Verde escuro */
+}
+
+
+
